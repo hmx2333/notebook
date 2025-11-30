@@ -7,6 +7,8 @@ const nextConfig: NextConfig = {
     unoptimized: true,       // GitHub Pages 不支持 Next.js 图片优化
   },
   reactStrictMode: true,
+  basePath: "/notebook",    // 如果你的仓库名不是 username.github.io
+  assetPrefix: "/notebook/", 
 };
 
 export default nextConfig;
